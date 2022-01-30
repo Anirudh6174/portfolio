@@ -59,7 +59,7 @@ nav ul li {
     width: 7rem;
   }
 }
-.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+.navbar-nav > li > a.active, .navbar-nav > li > a:focus {
   border-top: 0.2rem solid var(--primary-orange);
 }
 
@@ -74,7 +74,7 @@ nav ul li {
   background: url(background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
-  height: 90vh;
+  height: 100vh;
 }
 
 .main-info {
@@ -387,6 +387,10 @@ nav ul li {
    cursor: pointer;   
  }
 
+ .popupbox-wrapper {
+   margin-top: 7rem;
+ }
+
  /* Overflow Box 2*/
 
  .portfolio-image-popupbox {
@@ -597,4 +601,27 @@ textarea.form-control {
   .contacts p {
     padding: 0 1rem;
   }
+}
+
+/*Footer*/
+
+.footer {
+  background: var(--primary-black);
+  color: var(--primary-dark-grey);
+  padding: 3rem;
+}
+
+.footer a {
+  text-decoration: none;
+  color: var(--primary-dark-grey);
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: var(--primary-orange);
+  cursor: pointer;
+}
+
+.footer p {
+  margin-bottom: 0;
 }
